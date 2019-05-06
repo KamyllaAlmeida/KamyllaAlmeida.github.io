@@ -1,16 +1,32 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+- project: Rent Listings Notifier
+  role: Primary Developer
+  #duration: 2012  Present
+  url: "https://github.com/KamyllaAlmeida/rent-listings-notifier"
+  description: It is a robot set up to be executed daily that goes to Craigslist Website, get a list of rentals listings according to the filter, saves the list in a DynamoDB, compares the current day's listings the previous day's one and then sends an email with all available listings, what got added and what got removed. It was built using AWS Lambda NodeJS, DynamoDB, SNS (Simple Notification Service from AWS) and Cloudwatch event used to schedule the execution of the Lambda function.
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- project: Writer's Block
+  #role: Co-Founder & Organizer
+  #duration: 2007  Present
+  url: "https://github.com/KamyllaAlmeida/writers-block-project"
+  description: Writer's Block is an online platform to create and read stories. In it,  writers can easily create and share their stories and readers can read, like and comment stories. It is built in React and Ruby on Rails.
+
+- project: Jungle
+  #role: Co-Founder & Organizer
+  #duration: 2007  Present
+  url: "https://github.com/KamyllaAlmeida/jungle-rails"
+  description: A mini e-commerce application built with Rails 4.2.
+
+- project: TinyApp
+  #role: Co-Founder & Organizer
+  #duration: 2007  Present
+  url: "https://github.com/KamyllaAlmeida/tinyAppProject"
+  description: TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLs.
+
+- project: Tweeter
+  #role: Co-Founder & Organizer
+  #duration: 2007  Present
+  url: "https://github.com/KamyllaAlmeida/tweeter"
+  description: Tweeter is a single-page app built with HTML, CSS, JS, jQuery and AJAX on the client side, and Node, Express and MongoDB on the server-side.
